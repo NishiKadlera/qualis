@@ -1,0 +1,16 @@
+/* .col-md-4{ */
+    /* border-radius:5px 5px 5px 0px ; */
+    /* border-color: black; */
+    /* border-style: groove; */
+    /* background-color: white;
+    height: 30px; */
+  /* } */
+  .row{
+    width: auto;
+    border-radius:5px 5px 5px 0px ;
+    background-color: white;
+    height: 30px;
+  }
+  .container{
+    background-color: #deeee8;
+  }

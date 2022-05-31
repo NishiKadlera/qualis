@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 sidenav">
+      <button (click)="toggleShow()">Standard</button><br><br>
+      <button (click)="toggleShow1()">Summary</button>
+    </div>
+    <div class="col-md-10">
+      <div style="height:35px; background-color: white; ">Reports</div>
+      <div *ngIf="isShown" class="row container-fluid"  id="divshow">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div><button>Standard</button> </div>
+            </div>
+            <div class="col-md-4">
+              Description
+            </div>
+            <div class="col-md-4">
+xxx
+            </div>
+          </div>
+        </div>
+        <app-tablerows></app-tablerows><br>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,9 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+      <button (click)="toggleShow()">Reports</button>
+    </mat-drawer>
+    <mat-drawer-content *ngIf="isShown" class="row container-fluid"  id="divshow">
+        <app-reports></app-reports>
+    </mat-drawer-content>
+  </mat-drawer-container>
+  <p>standard works!</p>
