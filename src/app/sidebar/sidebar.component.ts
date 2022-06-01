@@ -21,7 +21,7 @@ this.isShown = ! this.isShown;
 isShown1: boolean = false ; // hidden by default
 toggleShow1() {
 
-  this.isShown = ! this.isShown;
+  this.isShown1 = ! this.isShown1;
   
   }
 }

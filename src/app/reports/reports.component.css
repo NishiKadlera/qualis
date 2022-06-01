@@ -1,12 +1,25 @@
-/* .container{
-  border-radius:5px 5px 5px 0px ;
-  border-color: black;
-  border-style: groove;
+.example-container {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(222,242,234,255);
+}
+.sidenav{
+  background-color: rgba(194,231,217,255);
+}
+/* .form1{
   background-color: white;
-  height: 30px;
 } */
-.flex-container{
- background-color: white;
- height: 40px;
- 
+.wrapper {
+  border:1px solid #000;
+  display:inline-block;
+  border-radius: 10px;
+}
+
+input,
+button {
+  background-color:transparent;
+  border:0;
 }

@@ -11,9 +11,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { ReportsComponent } from './reports/reports.component';
 import { TablerowsComponent } from './tablerows/tablerows.component';
 import { StandardComponent } from './standard/standard.component';
-// import { MatDrawerContainer } from '@angular/material/sidenav';
-// import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { MatTreeModule } from '@angular/material/tree';
+import { SummaryComponent } from './summary/summary.component';
+import { ShiftsummaryComponent } from './shiftsummary/shiftsummary.component';
 
 
 @NgModule({
@@ -24,6 +23,8 @@ import { MatTreeModule } from '@angular/material/tree';
     ReportsComponent,
     TablerowsComponent,
     StandardComponent,
+    SummaryComponent,
+    ShiftsummaryComponent,
     
  
   ],
@@ -34,9 +35,8 @@ import { MatTreeModule } from '@angular/material/tree';
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    // AngularFontAwesomeModule
-    // MatDrawerContainer
-    MatTreeModule
+    
+    
     
 
   ],

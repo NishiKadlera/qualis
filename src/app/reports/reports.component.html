@@ -1,21 +1,51 @@
-<div></div>
-
-<div class="flex-container">Report </div>
-<div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div><button>Standard</button> </div>
-      </div>
-      <div class="col-md-4">
-        Description
-      </div>
-      <div class="col-md-4">
-        Column
-      </div>
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" opened class="sidenav">
+      <br>
+      <!-- Search bar -->
+      <div class="wrapper">
+        <input type="text" placeholder="Search" />
+        <button><i class="fa fa-search"></i></button>
     </div>
-  </div>
-  <!-- <div><button>Standard</button> </div> -->
-  <app-tablerows></app-tablerows><br>
-  <app-tablerows></app-tablerows><br>
-  <app-tablerows></app-tablerows><br>
-  <app-tablerows></app-tablerows>
+    <!-- Search bar end-->
+    <br><br>
+      <div><button >Reports</button></div><br>
+    <div><button (click)="toggleShow()"> Standard</button></div><br>
+    <div><button (click)="toggleShow1()">Summary</button></div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <!-- Standard button click function -->
+    <div style="height: 45px; background-color: white; font-size: large; font-weight: 800;">&nbsp; Reports</div>
+    <div *ngIf="isShown" class="row container-fluid" id="divshow">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div><button class="btn btn" style="border-radius:5px 5px 0px 0px; margin-left: 35px; background-color: rgba(6,133,74,255);color: white;">Standard</button></div>
+          </div>
+          <div class="col-md-4">Description</div>
+          <div class="col-md-4">xxx</div>
+        </div>
+      </div>
+      <app-standard></app-standard><br />
+    </div>
+    <!-- Standard button click function end -->
+
+    <!-- Summary button click function -->
+      <div *ngIf="isShown1" class="row container-fluid" id="divshow">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div> <button class="btn btn" style="border-radius:5px 5px 0px 0px; margin-left: 35px; background-color: rgba(6,133,74,255);color: white;"  >Summary</button></div>
+            </div> 
+            <div class="col-md-4">Description</div>
+            <div class="col-md-4">xxx</div>
+          </div>
+        </div>
+        <app-summary></app-summary><br />
+      </div>
+      <!-- Standard button click function end-->
+
+      <app-shiftsummary></app-shiftsummary>
+
+
+      </mat-sidenav-content>
+    </mat-sidenav-container>
