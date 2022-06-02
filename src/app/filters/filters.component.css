@@ -1,16 +1,14 @@
-.container{
+/* .container{
     width: 100%;
     background-color: white;
     border-radius: 5px;
     margin-right: 60px;
     margin-left: 30px;
-}
+} */
 
 .pages{
-    /* border-top-style: none; */
+
     border-right-style: dotted;
-    /* border-bottom-style: none; */
-    /* border-left-style: none; */
     border-color: darkgray;
     text-align: center;
 }
@@ -21,7 +19,42 @@
 
 .horiz-line{
     border-top: 1px dashed darkgray;
+   width: 100%;
 }
-
+.div1{
+    width: 2%;
+    float: left;
+    background-color: transparent;
+    height: 30px;
+    margin-left: 2%;
+  
+  }
+  .div2{
+    width: 93%;
+    float: right;
+    background-color: white;
+    height: 30px;
+    margin-right: 3%;
+  }
+  .div3{
+    background-color: white;
+    width: 93%;
+    float: right;
+    margin-right: 3%;
+  }
+  .edit{
+      width: 20px;
+      height: 20px;
+      fill: #06854a;
+      float:right;
+  }
+  .arrow{
+    width: 20px;
+    height: 20px;
+    fill: #06854a;
+  }
+  .pages1{
+      text-align: center;
+  }
  
   
