@@ -13,7 +13,9 @@ import { TablerowsComponent } from './tablerows/tablerows.component';
 import { StandardComponent } from './standard/standard.component';
 import { SummaryComponent } from './summary/summary.component';
 import { ShiftsummaryComponent } from './shiftsummary/shiftsummary.component';
-
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { FiltersComponent } from './filters/filters.component';
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { ShiftsummaryComponent } from './shiftsummary/shiftsummary.component';
     StandardComponent,
     SummaryComponent,
     ShiftsummaryComponent,
+    FiltersComponent,
+    SidenavComponent
     
  
   ],

@@ -1,14 +1,13 @@
-.filter{
-    height: 50px;
-    background-color: white;
-    margin-left: 30px;
-    margin-right: 30px;
-}
 .control-chart{
     height: 400px;
     background-color: white;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 30px;
+}
+.div1{
+    float: left;
+    width: 5%;
 }
 .Histogram{
     height: 300px;
@@ -16,3 +15,54 @@
     margin-left: 30px;
     margin-right: 30px;
 }
+.accordion-button{
+      display: block;
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      background: white;
+      color: black;
+      text-align: left; 
+       cursor: pointer; 
+      height: 50px;
+      /* transition: background 0.2s; */
+      margin-right: 30px;
+      margin-right: 30px;     
+  }
+  .edit{
+      float: right;
+      width: 30px;
+      height: 30px;
+      /* border: 1px solid #CAD5E0; */
+      /* margin-right: 30px; */
+      /* background-color: #06854a; */
+      padding: 5px;
+      /* border-radius: 0px 0px 5px 0px; */
+  }
+  .edit path{
+      fill:#06854a;     
+  }
+  /* .div1{
+    width: 8%;
+    float: left;
+    background-color: green;
+    height: 30px;
+    margin-left: 2%;
+  
+  }
+  .div2{
+    width: 88%;
+    float: right;
+    background-color: blue;
+    height: 30px;
+    margin-right: 2%;
+  }
+  .div3{
+    background-color: blue;
+    width: 88%;
+    float: right;
+    margin-right: 2%;
+  }
+   */

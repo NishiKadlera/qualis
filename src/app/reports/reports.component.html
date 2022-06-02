@@ -16,30 +16,12 @@
     <!-- Standard button click function -->
     <div style="height: 45px; background-color: white; font-size: large; font-weight: 800;">&nbsp; Reports</div>
     <div *ngIf="isShown" class="row container-fluid" id="divshow">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <div><button class="btn btn" style="border-radius:5px 5px 0px 0px; margin-left: 35px; background-color: rgba(6,133,74,255);color: white;">Standard</button></div>
-          </div>
-          <div class="col-md-4">Description</div>
-          <div class="col-md-4">xxx</div>
-        </div>
-      </div>
       <app-standard></app-standard><br />
     </div>
     <!-- Standard button click function end -->
 
     <!-- Summary button click function -->
       <div *ngIf="isShown1" class="row container-fluid" id="divshow">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-4">
-              <div> <button class="btn btn" style="border-radius:5px 5px 0px 0px; margin-left: 35px; background-color: rgba(6,133,74,255);color: white;"  >Summary</button></div>
-            </div> 
-            <div class="col-md-4">Description</div>
-            <div class="col-md-4">xxx</div>
-          </div>
-        </div>
         <app-summary></app-summary><br />
       </div>
       <!-- Standard button click function end-->

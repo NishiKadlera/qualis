@@ -5,13 +5,12 @@
   left: 0;
   right: 0;
   background:rgba(222,242,234,255);
+  
 }
 .sidenav{
   background-color: rgba(194,231,217,255);
+
 }
-/* .form1{
-  background-color: white;
-} */
 .wrapper {
   border:1px solid #000;
   display:inline-block;

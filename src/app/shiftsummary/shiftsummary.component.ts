@@ -11,5 +11,9 @@ export class ShiftsummaryComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // ShowHide: boolean=false;
+  // HideShow(){
+  //   this.ShowHide=!this.ShowHide
+  // }
 
 }

@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+
+.pages{
+    /* border-top-style: none; */
+    border-right-style: dotted;
+    /* border-bottom-style: none; */
+    /* border-left-style: none; */
+    border-color: darkgray;
+    text-align: center;
+}
+.caret{
+    float: right;
+      color: #06854a;
+}
+
+.horiz-line{
+    border-top: 1px dashed darkgray;
+}
+
+ 
+  

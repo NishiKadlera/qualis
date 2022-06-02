@@ -1,9 +1,19 @@
-<!-- <mat-sidenav-container class="example-container" *ngIf="shouldRun">
-  <mat-sidenav mode="side" opened>Sidenav content
-    <div>icon</div>
-    <div>icon</div>
-  </mat-sidenav>
-  <mat-sidenav-content>Main content</mat-sidenav-content>
-</mat-sidenav-container>
 
-<div *ngIf="!shouldRun">Please open on Stackblitz to see result</div> -->
+<div class="div1" (click)="HideShow()"> icon</div>
+<div class="div2">Filter</div>
+<div class="div3" *ngIf="ShowHide">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo explicabo labore error quaerat tempore alias quod dolorem excepturi. Delectus ipsam perspiciatis culpa enim, nemo quia asperiores itaque eius beatae nulla?
+</div>
+
+
+<!-- <div class="accordion-item">
+    <div class="accordion-button div1" type="" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <div class="div2">Filter</div>
+    </div>
+
+  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body div3" *ngIf="ShowHide">
+      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+    </div>
+  </div>
+</div> -->
