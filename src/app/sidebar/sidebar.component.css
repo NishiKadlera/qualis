@@ -2,6 +2,7 @@
   /* border-color: black; */
   /* border-style: groove; */
   background-color: #deeee8;
+  
 
 }
 /* .sidenav{
@@ -9,4 +10,20 @@
     height: 100%;
 }
    */
+.breadcrumb{
+margin-left: 10%;
+padding: 10px;
+text-decoration: none;
+}
+.main-div{
+  width: 700px;
+  height: 500px;
+  background-color: gainsboro;
+  margin-left:10% ;
+}
+.bottom-div{
+  width: 50px;
+  background-color: antiquewhite;
+}
+
   

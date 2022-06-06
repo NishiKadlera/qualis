@@ -1,0 +1,64 @@
+/* .side{
+    width: 10%;
+    float: left;
+    background-color: white;
+    height: 400px;
+    border-style: groove;
+    border-color: transparent;
+}
+.main{
+    width: 86%;
+    float: right;
+    background-color: gainsboro;
+    height: 400px;  
+}
+.div-container{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-color: black;
+}
+.content{
+    background-color: white;
+    height: 330px;
+    border-color: black;
+}
+.content-container{
+    padding: 10px;
+    border-color: blue;
+}
+.button{
+    border-style: none;
+    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+    height: 30px;
+}
+.heading{
+    background-color: rgb(146, 141, 141);
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+.footer{
+    height:50px ;
+    background-color: aqua;
+    border-right: 0px 0px 10px 10px;
+    border-style: groove;
+} */
+
+/* ---------------------- */
+.navbar{
+    width: 10%;
+    top: 0%;
+    position: absolute;
+    height: 500px;
+    
+}
+.report-filter-content{
+    margin-left: 10%;
+}
+.bg-light{
+    
+}
+.navbar-nav{
+ text-align: justify;
+}

@@ -16,4 +16,9 @@ export class FiltersComponent implements OnInit {
     this.ShowHide=!this.ShowHide
   }
 
+  // Show: boolean=false;
+  // ShowMe(){
+  //   this.Show=!this.Show;
+  // }
+
 }

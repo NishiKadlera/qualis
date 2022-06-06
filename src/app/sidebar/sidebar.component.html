@@ -1,51 +1,31 @@
-<!-- <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2 sidenav">
-      <button (click)="toggleShow()">Standard</button><br><br>
-      <button (click)="toggleShow1()">Summary</button>
-    </div>
-    <div style="height:35px; background-color: white; ">Reports</div>
-    <div class="col-md-10">
-      
-      <div *ngIf="isShown" class="row container-fluid"  id="divshow">
-       
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-4">
-              <div><button>Standard</button> </div>
-            </div>
-            <div class="col-md-4">
-              Description
-            </div>
-            <div class="col-md-4">
-xxx
-            </div>
-          </div>
+<!-- <h2>Breadcrumb Pagination</h2> -->
+<div class="main-div ">
+  <ul class="breadcrumb">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-3">
+          <li><a href="#">Group </a></li>
         </div>
-        <app-standard></app-standard><br>
-      </div>
-
-      
-      <div *ngIf="isShown1" class="row container-fluid"  id="divshow">
-        <div style="height:35px; background-color: white; ">Reports</div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-4">
-              <div><button>Summary</button> </div>
-            </div>
-            <div class="col-md-4">
-              Description
-            </div>
-            <div class="col-md-4">
-              xxx
-            </div>
-          </div>
+        <div class="col-md-2">
+          <li><a (click)="Show()">Data Group</a></li>
         </div>
-        <app-summary></app-summary><br>
+        <div class="col-md-2">
+          <li><a href="#">Page</a></li>
+        </div>
+        <div class="col-md-2">
+          <li><a href="#">Grouping </a></li>
+        </div>
+        <div class="col-md-2">
+          <li><a href="#">Print Group  </a></li>
+        </div>
+        <div class="col-md-1">
+          
+        </div>
       </div>
     </div>
-  </div>
+  </ul>
+  <div *ngIf="ShowMe"><app-data-group></app-data-group> </div>
 </div>
-
-
- -->
+<div class="bottom-div">
+  <button>hello</button>
+</div>

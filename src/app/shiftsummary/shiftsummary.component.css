@@ -1,9 +1,12 @@
 .control-chart{
-    height: 400px;
+    height: 500px;
     background-color: white;
     margin-left: 4%;
     margin-right: 3%;
-    width: 93%;
+    width: 86%;
+}
+.hline{
+  border-top: 2px ridge rgb(90, 88, 88);
 }
 .div1{
     float: left;
@@ -14,7 +17,7 @@
     background-color: white;
     margin-left: 4%;
     margin-right: 3%;
-    width: 93%;
+    width: 86%;
 }
 .accordion-button{
       display: block;
@@ -45,25 +48,3 @@
   .edit path{
       fill:#06854a;     
   }
-  /* .div1{
-    width: 8%;
-    float: left;
-    background-color: green;
-    height: 30px;
-    margin-left: 2%;
-  
-  }
-  .div2{
-    width: 88%;
-    float: right;
-    background-color: blue;
-    height: 30px;
-    margin-right: 2%;
-  }
-  .div3{
-    background-color: blue;
-    width: 88%;
-    float: right;
-    margin-right: 2%;
-  }
-   */

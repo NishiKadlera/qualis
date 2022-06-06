@@ -1,0 +1,25 @@
+.list-group{
+    width: 120px;
+    height: 200px;
+    box-shadow: 5px 20px rgb(195, 191, 191);
+    border-radius: 10px;
+
+}
+.search{
+    width: 15px;
+    height: 15px;
+    fill: gray;
+   float: left;
+  
+    
+}
+.search-div{
+    width: 300;
+    height: 25px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 2px 2px rgb(142, 138, 138);
+    /* text-align: left; */
+}

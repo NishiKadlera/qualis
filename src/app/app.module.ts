@@ -1,5 +1,6 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -15,7 +16,10 @@ import { SummaryComponent } from './summary/summary.component';
 import { ShiftsummaryComponent } from './shiftsummary/shiftsummary.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { FiltersComponent } from './filters/filters.component';
-// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ReportFiltersComponent } from './report-filters/report-filters.component';
+import { DataGroupComponent } from './data-group/data-group.component';
+import { SearchdropdownComponent } from './searchdropdown/searchdropdown.component';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +32,10 @@ import { FiltersComponent } from './filters/filters.component';
     SummaryComponent,
     ShiftsummaryComponent,
     FiltersComponent,
-    SidenavComponent
+    SidenavComponent,
+    ReportFiltersComponent,
+    DataGroupComponent,
+    SearchdropdownComponent
     
  
   ],
@@ -39,10 +46,7 @@ import { FiltersComponent } from './filters/filters.component';
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    
-    
-    
-
+  
   ],
   providers: [],
   bootstrap: [AppComponent],

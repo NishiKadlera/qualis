@@ -1,0 +1,21 @@
+
+.data-group{
+    background-color: white;
+    width: 650px;
+    height: 300px;
+    border-style: ridge;
+    border-color: transparent;
+    margin-left: 2%;
+}
+.dropdown{
+  
+}
+.dropdown-toggle{
+    width: 150px;
+    height: 30px;
+    border-color: rgb(211, 209, 209);
+    border-style: ridge;
+    border-width: 1.5px;
+    background-color: whitesmoke;
+    float: right;
+}

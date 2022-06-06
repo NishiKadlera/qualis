@@ -15,11 +15,12 @@
 .caret{
     float: right;
       color: #06854a;
-}
+      /* width: 10px;
+      height: 10px; */
+} 
 
 .horiz-line{
-    border-top: 1px dashed darkgray;
-   width: 100%;
+ border-top-style: 2px black;
 }
 .div1{
     width: 2%;
@@ -30,17 +31,21 @@
   
   }
   .div2{
-    width: 93%;
-    float: right;
+    width: 86%;
+    margin-top: 2px;
+    /* float: right; */
     background-color: white;
-    height: 30px;
-    margin-right: 3%;
+    height: 40px;
+    /* margin-right: 7%; */
+    margin-left: 4%;
+    font-size: 18px;
+    font-weight:500;
   }
   .div3{
     background-color: white;
-    width: 93%;
-    float: right;
-    margin-right: 3%;
+    width: 86%;
+    /* float: right; */
+    margin-left: 4%;
   }
   .edit{
       width: 20px;
@@ -54,7 +59,62 @@
     fill: #06854a;
   }
   .pages1{
-      text-align: center;
+      text-align:left;
+      color: rgb(98, 94, 94);
+    font-weight: 500;
+    font-size: 15px;
   }
- 
+  .head-font{
+    color: rgb(98, 94, 94);
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .sub-font{
+    font-size: 20px;
+  }
+  .row2-sub-font{
+    color: black;
+  }
+  /* 
+ */
+ .search-div{
+  width: 300;
+  height: 25px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+  box-shadow: 2px 2px rgb(142, 138, 138);
+  
+}
+.search{
+  width: 15px;
+  height: 15px;
+  fill: gray;
+ float: left;
+}
+.main-list{
+  width: 50px;
+/* text-align: center; */
+  /* border-radius: 10px; */
+  border-color: transparent;
+  overflow:hidden; 
+  overflow-y:scroll;
+  height: 200px;
+  font-size: 15px;
+
+}
+.main-list1{
+  border-color: transparent;
+  overflow:hidden; 
+  overflow-y:scroll;
+  height: 200px;
+  font-size: 15px;
+  /* text-align: center; */
+
+}
+
+::-webkit-scrollbar{
+   display: none;
+}
+
   
