@@ -19,6 +19,12 @@ import { FiltersComponent } from './filters/filters.component';
 import { ReportFiltersComponent } from './report-filters/report-filters.component';
 import { DataGroupComponent } from './data-group/data-group.component';
 import { SearchdropdownComponent } from './searchdropdown/searchdropdown.component';
+import { PageComponent } from './page/page.component';
+import { GroupingComponent } from './grouping/grouping.component';
+import { PrintGroupComponent } from './print-group/print-group.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+
+
 
 
 @NgModule({
@@ -35,7 +41,10 @@ import { SearchdropdownComponent } from './searchdropdown/searchdropdown.compone
     SidenavComponent,
     ReportFiltersComponent,
     DataGroupComponent,
-    SearchdropdownComponent
+    SearchdropdownComponent,
+    PageComponent,
+    GroupingComponent,
+    PrintGroupComponent
     
  
   ],
@@ -46,6 +55,7 @@ import { SearchdropdownComponent } from './searchdropdown/searchdropdown.compone
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
+    MatCheckboxModule
   
   ],
   providers: [],

@@ -28,6 +28,18 @@ toggleShow1() {
   Show(){
     this.ShowMe=! this.ShowMe;
   }
+  Show1a: boolean=false;
+  Show1(){
+    this.Show1a=! this.Show1a;
+  }
+  Show2a: boolean=false;
+  Show2(){
+    this.Show2a=! this.Show2a;
+  }
+  Show3a: boolean=false;
+  Show3(){
+    this.Show3a=! this.Show3a;
+  }
 }
 
 

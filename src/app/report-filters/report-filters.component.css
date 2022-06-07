@@ -47,18 +47,43 @@
 
 /* ---------------------- */
 .navbar{
-    width: 10%;
-    top: 0%;
-    position: absolute;
+    width: 5%;
+    /* top: 0; */
+    position: fixed;
     height: 500px;
     
 }
-.report-filter-content{
-    margin-left: 10%;
-}
-.bg-light{
-    
-}
+
+
 .navbar-nav{
  text-align: justify;
+ margin-top: 0px;
 }
+.bottom-div{
+    width: 700px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px;
+    border-style: solid;
+    border-color: transparent;
+  }
+
+  .fav
+  {
+      margin-left: 550px;
+      background-color: #06854a;
+      text-align: center;
+      border-radius: 5px;
+      height: 30px;
+      
+  }
+  .top-div{
+      width: 700px;
+      height: 50px;
+      border-radius: 5px 5px 0px 0px;
+      background-color: whitesmoke;
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+
+  }

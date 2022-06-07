@@ -1,29 +1,31 @@
-.container-fluid{
-  /* border-color: black; */
-  /* border-style: groove; */
-  background-color: #deeee8;
-  
 
-}
-/* .sidenav{
-    background-color: #c2e7d9;
-    height: 100%;
-}
-   */
 .breadcrumb{
 margin-left: 10%;
-padding: 10px;
+/* padding: 20px; */
 text-decoration: none;
+}
+.bread{
+  height: 20px;
 }
 .main-div{
   width: 700px;
   height: 500px;
   background-color: gainsboro;
-  margin-left:10% ;
+  
 }
 .bottom-div{
-  width: 50px;
-  background-color: antiquewhite;
+  width: 700px;
+  background-color: black;
+  border-radius: 0px 0px 5px 5px;
 }
 
-  
+.favourite{
+  float: right;
+}
+.fav
+{
+  margin-right: 0;
+}
+a:hover{
+  background-color: white;
+}

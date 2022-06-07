@@ -11,6 +11,10 @@ export class ReportFiltersComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  breadcrumbsShow: boolean=true;
+  ShowBreadcrumbs(){
+    this.breadcrumbsShow=!this.breadcrumbsShow;
+  }
 
 }
 

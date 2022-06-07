@@ -14,9 +14,9 @@
 }
 .caret{
     float: right;
-      color: #06854a;
-      /* width: 10px;
-      height: 10px; */
+      fill: #06854a;
+      width: 10px;
+      height: 10px;
 } 
 
 .horiz-line{
@@ -58,12 +58,6 @@
     height: 20px;
     fill: #06854a;
   }
-  .pages1{
-      text-align:left;
-      color: rgb(98, 94, 94);
-    font-weight: 500;
-    font-size: 15px;
-  }
   .head-font{
     color: rgb(98, 94, 94);
     font-weight: 500;
@@ -86,6 +80,7 @@
   box-shadow: 2px 2px rgb(142, 138, 138);
   
 }
+
 .search{
   width: 15px;
   height: 15px;
@@ -96,7 +91,7 @@
   width: 50px;
 /* text-align: center; */
   /* border-radius: 10px; */
-  border-color: transparent;
+  /* border-color: transparent; */
   overflow:hidden; 
   overflow-y:scroll;
   height: 200px;
@@ -116,5 +111,10 @@
 ::-webkit-scrollbar{
    display: none;
 }
-
+.modal-backdrop{
+  z-index: -1
+}  
+.modal-dialog {
+  width: 700px;
+} 
   

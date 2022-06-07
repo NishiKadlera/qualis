@@ -1,3 +1,28 @@
+.arrow{
+    width: 15px;
+    height: 15px;
+}
+.pg1{
+    list-style: none;
+}
+.form-check-input{
+    border-style: solid;
+}
+.form-check-input:checked{
+
+    background-color: green;
+}
+.dropdown-item{
+color: rgb(116, 111, 111);
+}
+.dropdown-item:hover{
+    background-color: transparent;
+}
+.div1{
+    /* margin-left: 50px; */
+}
+
+
 
 .data-group{
     background-color: white;
@@ -22,3 +47,4 @@
 .dropdown-menu{
     border-color: transparent;
 }
+

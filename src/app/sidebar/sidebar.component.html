@@ -1,31 +1,27 @@
 <!-- <h2>Breadcrumb Pagination</h2> -->
-<div class="main-div ">
+<div class="main-div "><br>
   <ul class="breadcrumb">
-    <div class="container">
-      <div class="row ">
-        <div class="col-md-3">
-          <li><a href="#">Group </a></li>
-        </div>
-        <div class="col-md-2">
-          <li><a (click)="Show()">Data Group</a></li>
-        </div>
-        <div class="col-md-2">
-          <li><a href="#">Page</a></li>
-        </div>
-        <div class="col-md-2">
-          <li><a href="#">Grouping </a></li>
-        </div>
-        <div class="col-md-2">
-          <li><a href="#">Print Group  </a></li>
-        </div>
-        <div class="col-md-1">
+    <div class="container" >
+      <div class="row" >
+        <div class="bread" style="display:flex;">
+          <div ><a style="text-decoration: none;">Group  </a></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li><a (click)="Show()">Data Group</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+          <li><a  (click)="Show1()">Page</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+          <li><a (click)="Show2()">Grouping </a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+          <li><a (click)="Show3()">Print Group  </a></li>&nbsp;&nbsp;&nbsp;&nbsp;
           
         </div>
       </div>
     </div>
   </ul>
   <div *ngIf="ShowMe"><app-data-group></app-data-group> </div>
+  <div *ngIf="Show1a"><app-page></app-page> </div>
+  <div *ngIf="Show2a"><app-grouping></app-grouping> </div>
+  <div *ngIf="Show3a"><app-print-group></app-print-group> </div>
 </div>
-<div class="bottom-div">
-  <button>hello</button>
-</div>
+<!-- <div class="bottom-div">
+  <button class="favourite">hello</button>
+</div> -->
+<!-- <div class="bottom-div">
+  <button class="fav">Hello</button>
+</div> -->
